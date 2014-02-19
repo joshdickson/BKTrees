@@ -70,7 +70,7 @@
             <formatter type="xml"/>
             <test name="bktrees.BKTreeTest" todir="${junit.output.dir}"/>
         	<test name="bktrees.SimpleStringEditTest" todir="${junit.output.dir}"/>
-            <classpath refid="TravisCI.classpath"/>
+            <classpath refid="BKTrees.classpath"/>
         </junit>
     </target>
     <target name="junitreport">
